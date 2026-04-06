@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(source:*)",
+      "Bash(.venv/bin/pip:*)",
+      "Bash(.venv/bin/python:*)",
+      "Bash(lsof:*)",
+      "Bash(xargs:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(git push:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
